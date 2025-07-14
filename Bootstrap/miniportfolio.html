@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Personal</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bs-primary: #bc17dd;
+            --bs-primary-rgb: 188, 23, 221;
+        }
+        .bg-primary {
+            background-color: #bc17dd !important;
+        }
+        .text-primary {
+            color: #bc17dd !important;
+        }
+        .btn-primary {
+            background-color: #bc17dd;
+            border-color: #bc17dd;
+        }
+        .btn-primary:hover {
+            background-color: #450a4d;
+            border-color: #450a4d;
+        }
+        .border-primary {
+            border-color: #bc17dd !important;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: white;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #d671eb;
+        }
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="#">
+                <i class="bi bi-person-circle me-2"></i>Mi Portfolio
+            </a>
+        </div>
+    </nav>
+
+   
+    <section id="inicio" class="bg-primary text-white py-5" style="margin-top: 56px;">
+        <div class="container py-5">
+            <div class="row align-items-center min-vh-75">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h1 class="display-4 fw-bold mb-3">¡Hola! Soy Fabiana Motta</h1>
+                    <h2 class="h4 mb-4">Estudiante de desarrollo web</h2>
+                    <p class="lead mb-4">Apasionada por crear experiencias digitales únicas y funcionales.</p>                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="fabi foto de perfil.jpg" alt="Foto de perfil" 
+                         class="img-fluid rounded-circle border border-5 border-white shadow-lg" 
+                         style="width: 250px; height: 250px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary">Sobre Mí</h2>
+                    <div class="mx-auto bg-primary rounded" style="width: 60px; height: 3px;"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg rounded-4">
+                        <div class="card-body p-4 p-md-5">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 text-center mb-4 mb-md-0">  
+                                    <div class="bg-primary rounded-circle p-4 d-inline-block mb-3">
+                                        <i class="bi bi-mortarboard text-white fs-1"></i>
+                                    </div>                              
+                                    <h5 class="fw-bold">Estudiante</h5>
+                                </div>
+                                <div class="col-md-8">
+                                    <h4 class="mb-3 text-primary">Mi Historia</h4>
+                                    <p class="text-muted mb-3">
+                                         Soy Fabiana Motta, estudiante de programación en etapa de formación.
+                                         Estoy dando mis primeros pasos en el desarrollo web, trabajando con HTML, CSS y JavaScript. Aunque todavía no tengo experiencia profesional ni muchos proyectos, estoy comprometido con seguir practicando, aprendiendo y mejorando cada día.
+                                    </p>
+                                    <p class="text-muted mb-0">
+                                        Busco oportunidades para seguir creciendo, ya sea participando en proyectos, colaborando con otros o accediendo a mentorías.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary">Mis Habilidades</h2>
+                    <div class="mx-auto bg-primary rounded" style="width: 60px; height: 3px;"></div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg rounded-4">
+                        <div class="card-body p-4 p-md-5">
+                            <h4 class="mb-4 text-center text-primary"></h4>                                                      
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-light border-0 h-100 text-center p-3 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-lightbulb text-primary mb-3" style="font-size: 3rem;"></i>
+                                            <h6 class="fw-bold mb-2">Creatividad</h6>
+                                            <small class="text-muted">Soluciones innovadoras</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-light border-0 h-100 text-center p-3 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-puzzle text-primary mb-3" style="font-size: 3rem;"></i>
+                                            <h6 class="fw-bold mb-2">Resolución</h6>
+                                            <small class="text-muted">Análisis de problemas</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-light border-0 h-100 text-center p-3 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-chat-dots text-primary mb-3" style="font-size: 3rem;"></i>
+                                            <h6 class="fw-bold mb-2">Comunicación</h6>
+                                            <small class="text-muted">Ideas claras</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-light border-0 h-100 text-center p-3 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-clock text-primary mb-3" style="font-size: 3rem;"></i>
+                                            <h6 class="fw-bold mb-2">Organización</h6>
+                                            <small class="text-muted">Gestión del tiempo</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-light border-0 h-100 text-center p-3 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-arrow-up-circle text-primary mb-3" style="font-size: 3rem;"></i>
+                                            <h6 class="fw-bold mb-2">Adaptabilidad</h6>
+                                            <small class="text-muted">Aprendizaje continuo</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-light border-0 h-100 text-center p-3 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-heart text-primary mb-3" style="font-size: 3rem;"></i>
+                                            <h6 class="fw-bold mb-2">Empatía</h6>
+                                            <small class="text-muted">Trabajo en equipo</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intereses -->
+    <section id="intereses" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary">Mis Intereses</h2>
+                    <div class="mx-auto bg-primary rounded" style="width: 60px; height: 3px;"></div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 border-start border-primary border-4 h-100 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <i class="bi bi-laptop text-primary mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="fw-bold mb-3">Tecnología</h5>
+                            <p class="text-muted">Me apasiona aprender sobre nuevas herramientas, lenguajes y cómo la tecnología puede resolver problemas reales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 border-start border-primary border-4 h-100 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <i class="bi bi-palette text-primary mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="fw-bold mb-3">Diseño</h5>
+                            <p class="text-muted">Me interesa el diseño en todas sus formas y cómo influye en la vida diaria. Amo como logra comunicar sin palabras.</p>
+                        </div>
+                    </div>
+                </div>                           
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 border-start border-primary border-4 h-100 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <i class="bi bi-music-note text-primary mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="fw-bold mb-3">Música</h5>
+                            <p class="text-muted">La música me acompaña todos los días, ya sea para concentrarme, inspirarme o simplemente disfrutar el momento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-person-circle me-2"></i>
+                        Fabiana Motta
+                    </h5>
+                    <p class="mb-3">Siempre lista para nuevos desafíos y proyectos emocionantes.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-geo-alt me-2"></i>
+                        Contacto
+                    </h5>
+                    <div class="mb-2">
+                        <i class="bi bi-envelope me-2"></i>
+                        <span>fabivmotta26@gmail.com</span>
+                    </div>
+                    <div class="mb-2">
+                        <i class="bi bi-phone me-2"></i>
+                        <span>+54 1126797527</span>
+                    </div>
+                    <div class="mb-2">
+                        <i class="bi bi-geo-alt me-2"></i>
+                        <span>Buenos Aires, Argentina</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 text-center text-lg-start">                 
+                    <a href="mailto:fabivmotta26@gmail.com" class="btn btn-outline-light rounded-pill">
+                        <i class="bi bi-envelope me-2"></i>
+                        Enviar Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
